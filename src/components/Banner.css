@@ -1,11 +1,11 @@
 .banner {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   margin: 0;
   padding: 0;
   line-height: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .banner-image {
@@ -16,6 +16,8 @@
   margin: 0;
   padding: 0;
   vertical-align: bottom;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 @media (max-width: 768px) {
