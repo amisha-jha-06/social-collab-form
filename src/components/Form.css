@@ -6,6 +6,8 @@
   padding: 2rem 1rem;
   background: linear-gradient(135deg, #FFE8E0 0%, #FFD6CC 50%, #FFE5E5 100%);
   min-height: calc(100vh - 200px);
+  margin-top: 0;
+  position: relative;
 }
 
 .form-wrapper {

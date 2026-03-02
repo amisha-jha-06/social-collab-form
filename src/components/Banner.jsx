@@ -1,4 +1,4 @@
-import bannerImage from '../images/Banner.jpg'
+import bannerImage from '../images/Web (1).jpg'
 import './Banner.css'
 
 const Banner = () => {

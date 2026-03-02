@@ -12,8 +12,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(135deg, #FFE8E0 0%, #FFD6CC 50%, #FFE5E5 100%);
   color: #000000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 #root {
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }

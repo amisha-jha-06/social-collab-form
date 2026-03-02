@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Banner from './components/Banner'
 import Form from './components/Form'
 import SuccessScreen from './components/SuccessScreen'
@@ -19,6 +20,7 @@ function App() {
       ) : (
         <Form onSubmit={handleFormSubmit} />
       )}
+      <Analytics />
     </div>
   )
 }
